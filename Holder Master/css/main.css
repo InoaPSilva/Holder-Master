@@ -58,7 +58,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-  color: #57b846;
+  color: #ffffff;
 }
 
 /*---------------------------------------------*/
@@ -354,7 +354,8 @@ iframe {
 }
 
 .login100-form-btn:hover {
-  background: #333333;
+  background: rgb(241, 243, 94);
+  color: white;
 }
 
 

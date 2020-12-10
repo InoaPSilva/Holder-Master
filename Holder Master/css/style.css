@@ -55,9 +55,8 @@ p {
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
-	color: white;
-	background-color: transparent;
-	border: 2px solid #B814D9;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
@@ -68,7 +67,7 @@ p {
 
 .cta:hover {
 	color: white;
-	background-color: rgb(250, 10, 1);
+	background-color: rgb(241, 243, 94);
 }
 
 .brand h1 {
@@ -229,12 +228,7 @@ p {
 	margin-right:15px;
 	padding: 6px;
 	color:rgba(255, 255, 255);
-	background-color: transparent;
-	border: 1px solid #B814D9;
 
-}
-#user a:hover{
-	background-color:crimson;
 }
 
 /* End Header section */
@@ -242,7 +236,11 @@ p {
 /* Hero Section */
 
 #hero {
-	background-image: url(/images/Suco\ de\ uva.png);
+	background: #FF9BEB;
+	background: -webkit-linear-gradient(-135deg, #FF9BEB, #fedd6c);
+	background: -o-linear-gradient(-135deg, #FF9BEB,#fedd6c);
+	background: -moz-linear-gradient(-135deg,#FF9BEB, #fedd6c);
+	background: linear-gradient(-135deg,#FF9BEB, #fedd6c);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -256,7 +254,6 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: black;
 	opacity: .7;
 	z-index: -1;
 }
@@ -297,7 +294,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: #251A3A;
+	background-color: #FF9BEB;
 	animation: text_reveal_box 1s ease;
 	animation-delay: .5s;
 }
