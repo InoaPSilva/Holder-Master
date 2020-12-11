@@ -81,16 +81,3 @@ function Posicao_bdr() {
 
   chart.draw(data, options);
 }
-
-function mostrar_acao() {
-
-  var display_aparece = document.getElementById("Posicao_total").style.display;
-  if (display_aparece == "none") {
-      document.getElementById("Posicao_total").style.displayparece = 'block';
-      console.log("BLOCK")
-  }
-  else {
-      document.getElementById("Posicao_total").style.displayparece = 'none';
-      console.log("None")
-  }
-}
